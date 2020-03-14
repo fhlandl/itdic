@@ -3,19 +3,21 @@
 
 #include <string>
 
-typedef std::string String;
+typedef std::string Word;
 
 class Vocabulary
 {
 public:
-	Vocabulary(String, String);
+	Vocabulary(Word, Word);
 	~Vocabulary();
-	void setWord(String newWord);
-	String getWord();
+	void setWord(Word newWord);
+	Word getWord();
+	// bool IsKorean();
+	// bool IsEnglish();
 
 private:
-	String _wordEn;  // 단어_영어
-	String _wordKr;  // 뜻_한국어
-	String _phonSymbol// 발음기호
+	Word _wordEn;  // 단어_영어
+	Word _wordKr;  // 뜻_한국어
+	Word _phonSymbol// 발음기호
 	// 예문(?)
 };

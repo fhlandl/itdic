@@ -1,9 +1,9 @@
 #include "vocabulary.h"
 
-Vocabulary::Vocabulary(String Englishword, String, Koreanword) { }
+Vocabulary::Vocabulary(Word Englishword, Word, Koreanword) { }
 Vocabulary::~Vocabulary() { }
-void Vocabulary::setWord(String newWord) 
+void Vocabulary::setWord(Word newWord) 
 {
 	_wordEn = newWord;
 }
-String Vocabulary::getWord() { }
+Word Vocabulary::getWord() { }
