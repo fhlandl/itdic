@@ -21,3 +21,5 @@ private:
 	Word _phonSymbol// 발음기호
 	// 예문(?)
 };
+
+#endif
