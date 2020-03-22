@@ -1,0 +1,5 @@
+apple 사과
+book 책
+good 좋은
+vector 벡터
+smart 똑똑한

@@ -18,7 +18,7 @@ public:
 private:
 	Word _wordEn;  // 단어_영어
 	Word _wordKr;  // 뜻_한국어
-	Word _phonSymbol// 발음기호
+	Word _phonSymbol; // 발음기호
 	// 예문(?)
 };
 
